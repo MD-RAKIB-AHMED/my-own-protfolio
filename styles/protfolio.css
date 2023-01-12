@@ -3,9 +3,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-section{
+section {
     margin: 130px;
 }
+
 .header {
     background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
@@ -39,12 +40,14 @@ section{
     font-size: 20px;
     width: 160px;
     height: 64px;
+    border-radius: 5px;
+    border-color: red;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 55px 220px;
+    padding: 55px 220px;
 }
 
 .nav-title {
@@ -95,19 +98,19 @@ nav li {
 
 /* main section */
 main {
-    max-width: 1140px;
+    max-width: 1400px;
+
     margin: 0 auto;
 }
 
 /* About section styles */
 .about {
     /* margin-top: 130px; */
+    text-align: center;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
-    text-align: center;
     /* margin-bottom: 130px; */
-    
 }
 
 .section-title {
@@ -142,16 +145,14 @@ main {
 /* What I do styles */
 .what-i-do {
     text-align: center;
-    
 }
 
 .skill {
     text-align: left;
     background: #FFFFFF;
-box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-border-radius: 5px;
-padding: 40px;
-
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 80px;
 }
 
 .skills-container {
@@ -163,7 +164,7 @@ padding: 40px;
     font-weight: 700;
     font-size: 20px;
     margin-top: 30px;
-margin-bottom: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -171,4 +172,14 @@ margin-bottom: 20px;
     font-size: 16px;
     color: #757575;
 }
+
 /* Resume styles */
+.resume-content {
+    display: flex;
+}
+
+.resume-title {
+    text-align: left;
+}
+
+.resume-item {}
